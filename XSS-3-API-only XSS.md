@@ -1,10 +1,6 @@
-Voici ton **rapport court**, même format que les précédents, adapté à l’**API-only XSS** :
-
----
-
 # **Rapport de vulnérabilité — API-Only XSS**
 
-## **1. Méthodologie (bref)**
+## **1. Méthodologie**
 
 1. Connexion avec un **compte administrateur** pour récupérer un **Bearer token** valide.
 2. Inspection des endpoints disponibles et découverte de `api/products:id`.
