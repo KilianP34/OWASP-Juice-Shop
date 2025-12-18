@@ -8,6 +8,8 @@
 4. Injection de la payload finale : **`<<a|ascript>alert(`xss`)</script>`**.
 5. Grâce à la CSP affaiblie, le payload `<script>alert('xss')</script>` s'exécute → challenge validé.
 
+![alt text](img/image.png)
+
 ### **Techniques utilisées**
 
 * Injection dans la Content Security Policy
@@ -46,5 +48,3 @@
 * Éviter l'utilisation de `'unsafe-inline'` dans `script-src`
 * Améliorer les filtres de validation pour détecter les techniques d'obfuscation (regex bypass)
 * Encoder et échapper toutes les entrées utilisateur avant insertion dans le HTML
-
-![alt text](img/image.png)
