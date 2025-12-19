@@ -8,6 +8,8 @@
 4. Identification d'un commit pertinent : **`5c752f5`** contenant des lignes supprimées — parmi ces lignes supprimées se trouvait la clé API en clair : **`6PPi37DBxP4lDwlriuaxP15HaDJpsUXY5TspVmie`**.
 5. Utilisation de la clé trouvée dans le champ attendu du site (page **Contact** / fonctionnalité de soumission) → envoi de la clé → challenge validé.
 
+![alt text](img/leakedapikey.png)
+
 ### **Techniques utilisées**
 
 * Analyse de l'historique Git / recherche dans les commits
