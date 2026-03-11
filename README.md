@@ -19,11 +19,11 @@ L'objectif était d'exploiter l'application volontairement vulnérable **OWASP J
 
 ### 2ème du campus de Montpellier
 
-![Classement campus de Montpellier](img/campus.png)
+![Classement campus de Montpellier](campus.png)
 
 ### 7ème au classement national
 
-![Classement national](img/nation.png)
+![Classement national](natio.png)
 
 ---
 
